@@ -6,9 +6,9 @@ function getItems() {
     if (storedCities !== null) {
         searchHistory = storedCities;
     };
-     // lists up to 8
+     // lists up to 10
     for (i = 0; i < searchHistory.length; i++) {
-        if (i == 8) {
+        if (i == 10) {
             break;
           }
         //  creates links/buttons https://getbootstrap.com/docs/4.0/components/list-group/
